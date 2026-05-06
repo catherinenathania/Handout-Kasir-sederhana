@@ -44,7 +44,7 @@ com.catherinenathania.tugascashier
         └── SummarySection.kt
 ```
 
-## ⚙️ Cara Menjalankan
+##  Cara Menjalankan
 1. Clone repository ini:
    ```bash
    git clone https://github.com/catherinenathania/Handout-Kasir-sederhana.git
