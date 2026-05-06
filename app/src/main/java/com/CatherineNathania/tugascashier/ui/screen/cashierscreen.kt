@@ -36,14 +36,12 @@ fun CashierScreen(
 ) {
     val context = LocalContext.current
 
-    // Efek Interaktif 1: Memunculkan pesan melayang (Toast) jika menekan checkout tapi keranjang kosong
     LaunchedEffect(uiState.message) {
         if (uiState.message == "Keranjang masih kosong") {
             Toast.makeText(context, uiState.message, Toast.LENGTH_SHORT).show()
         }
     }
 
-    // Efek Interaktif 2: Memunculkan Pop-up jika isCheckoutSuccess bernilai true
     if (uiState.isCheckoutSuccess) {
         AlertDialog(
             onDismissRequest = { /* Dibiarkan kosong agar user wajib menekan tombol OK */ },
@@ -58,7 +56,7 @@ fun CashierScreen(
             },
             confirmButton = {
                 Button(onClick = {
-                    // Mereset keranjang saat user menekan OK
+
                     onResetTransaction()
                 }) {
                     Text("OK & Mulai Transaksi Baru")
@@ -83,7 +81,7 @@ fun CashierScreen(
 
             Spacer(modifier = Modifier.height(12.dp))
 
-            // Pesan status bawaan dari modul tetap kita tampilkan
+
             Text(
                 text = "Status: ${uiState.message}",
                 style = MaterialTheme.typography.bodyMedium,
