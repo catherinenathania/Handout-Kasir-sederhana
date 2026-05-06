@@ -54,4 +54,6 @@ com.catherinenathania.tugascashier
 4. Jalankan aplikasi menggunakan Emulator atau Perangkat Android fisik.
 
 ---
-*Proyek ini disusun sebagai pemenuhan tugas mata kuliah Pemrograman Sistem Interaktif.* 
+
+**Dibuat oleh:** Catherine Nathania (235150201111042)  
+**Mata Kuliah:** Pemrograman Sistem Interaktif - Universitas Brawijaya - Teknik Informatika  
