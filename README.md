@@ -55,4 +55,3 @@ com.catherinenathania.tugascashier
 
 ---
 *Proyek ini disusun sebagai pemenuhan tugas mata kuliah Pemrograman Sistem Interaktif.* 
-```
